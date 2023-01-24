@@ -1,4 +1,5 @@
 import React from "react";
+import ExpenseList from "../Components/ExpenseList/ExpenseList";
 import Topfold from "../Components/Topfold/Topfold";
 import './Home.css'
 const Home = () => {
@@ -7,7 +8,9 @@ const Home = () => {
       <div>
         <Topfold/>
       </div>
-      <div>ExpenseList</div>
+      <div>
+        <ExpenseList/>
+      </div>
     </div>
   );
 };
