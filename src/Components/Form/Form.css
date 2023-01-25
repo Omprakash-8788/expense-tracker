@@ -1,0 +1,19 @@
+
+
+.amount-section{
+    padding: 1cm 0cm 1cm 16cm;
+    display: flex;
+}
+
+.expense{
+    height: 0.7cm;
+    width: 7cm;
+    font-size: 0.5cm;
+
+}
+.amount{
+    height: 0.7cm;
+    width: 2cm;
+    font-size: 0.5cm;
+    
+}

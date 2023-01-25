@@ -1,10 +1,12 @@
 import "./App.css";
+import Container from "./Components/Form/Container";
 
 function App() {
   return (
-    <>
-      <h1>eoirgh</h1>
-    </>
+    <div className="App">
+      <Container/>
+      
+    </div>
   );
 }
 
