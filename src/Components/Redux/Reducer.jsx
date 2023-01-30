@@ -1,6 +1,7 @@
 const initialData = {
   list: [],
   amount: [],
+  education: [],
 };
 
 const Reducer = (state = initialData, action) => {
@@ -26,6 +27,18 @@ const Reducer = (state = initialData, action) => {
           {
             id: amountId,
             data: amountData,
+          },
+        ],
+      };
+    case "ADD_EDUCATION":
+      const { educationId, educationData } = action.payload;
+      return {
+        ...state,
+        education: [
+          ...state.education,
+          {
+            id: educationId,
+            data: educationData,
           },
         ],
       };

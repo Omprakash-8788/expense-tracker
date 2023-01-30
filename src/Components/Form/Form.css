@@ -1,19 +1,24 @@
-
-
-.amount-section{
-    padding: 1cm 0cm 1cm 16cm;
-    display: flex;
+.amount-section {
+  padding: 1cm 0cm 1cm 16cm;
+  display: flex;
 }
 
-.expense{
-    height: 0.7cm;
-    width: 7cm;
-    font-size: 0.5cm;
+.expense {
+  height: 0.7cm;
+  width: 7cm;
+  font-size: 0.5cm;
+}
+.amount {
+  height: 0.7cm;
+  width: 2cm;
+  font-size: 0.5cm;
+}
+
+.exp-amo {
+  display: flex;
+  /* padding: 1cm 0cm 1cm 17cm; */
 
 }
-.amount{
-    height: 0.7cm;
-    width: 2cm;
-    font-size: 0.5cm;
-    
+.exp{
+    padding-right: 2cm;
 }

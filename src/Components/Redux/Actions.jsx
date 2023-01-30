@@ -17,3 +17,13 @@ export const addAmount = (amount) => {
     },
   };
 };
+
+export const addEducation = (education) => {
+  return {
+    type: "ADD_EDUCATION",
+    payload: {
+      educationId: new Date().getTime().toString(),
+      educationData: education,
+    },
+  };
+};
